@@ -1,0 +1,23 @@
+# Binaries
+/remora
+/bin/
+
+# Test artifacts
+*.test
+*.out
+coverage.html
+
+# Profiling
+*.prof
+
+# Local workspace overrides (commit go.work only if you're doing multi-module)
+go.work
+go.work.sum
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
